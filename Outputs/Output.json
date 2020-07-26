@@ -1,0 +1,39 @@
+﻿{
+  "EventHubProperties": null,
+  "BlobStorageProperties": {
+    "Container": "iothubcontainer",
+    "DateFormat": "yyyy/MM/dd",
+    "PathPattern": "logs/year={datetime:yyyy}/month={datetime:MM}",
+    "StorageAccounts": [
+      {
+        "AccountKey": null,
+        "AccountName": "vinstorage14"
+      }
+    ],
+    "TimeFormat": "HH",
+    "AuthenticationMode": "ConnectionString"
+  },
+  "SQLDatabaseProperties": null,
+  "TableStorageProperties": null,
+  "ServiceBusQueueProperties": null,
+  "ServiceBusTopicProperties": null,
+  "DocumentDbProperties": null,
+  "PowellBIProperties": null,
+  "AzureDataLakeStoreProperties": null,
+  "AzureFunctionProperties": null,
+  "DataSourceCredentialDomain": "9b53b962-b909-4740-a2ed-479da0ff06c1.StreamAnalyticsCredential",
+  "Name": "Output",
+  "DataSourceType": "Blob Storage",
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": "LineSeparated",
+    "SerializationDllPath": null,
+    "SerializationClassName": null,
+    "SerializationDllPathInLocal": null
+  },
+  "MinimumRows": null,
+  "MaximumTime": null,
+  "ScriptType": "Output"
+}

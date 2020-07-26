@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E6C563F2-BDC2-4A24-ACBF-01715157DCBB}") = "StreamAnalyticsJob", "StreamAnalyticsJob.asaproj", "{D4219080-FEC7-45F7-BCB5-77721AD28579}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4219080-FEC7-45F7-BCB5-77721AD28579}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D4219080-FEC7-45F7-BCB5-77721AD28579}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D4219080-FEC7-45F7-BCB5-77721AD28579}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D4219080-FEC7-45F7-BCB5-77721AD28579}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86732BE9-7E60-494E-8320-EC1642A3AAEA}
+	EndGlobalSection
+EndGlobal

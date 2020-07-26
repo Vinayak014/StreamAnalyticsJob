@@ -1,0 +1,30 @@
+﻿{
+  "Sample": null,
+  "EventHubProperties": {
+    "ConsumerGroupName": "$Default",
+    "EventHubName": "myeventhub",
+    "ServiceBusNamespace": "myeventhub14",
+    "SharedAccessPolicyKey": null,
+    "SharedAccessPolicyName": "RootManageSharedAccessKey"
+  },
+  "BlobStorageProperties": null,
+  "IoTHubProperties": null,
+  "BlobReferenceProperties": null,
+  "SqlReferenceInputInfo": null,
+  "InputPartionKey": null,
+  "DataSourceCredentialDomain": "39d88ff4-e3a6-4640-bfda-43b2f96572c2.StreamAnalyticsCredential",
+  "Name": "Input",
+  "Type": "Data Stream",
+  "DataSourceType": "Event Hub",
+  "Serialization": {
+    "Encoding": "UTF8",
+    "Type": "Json",
+    "FieldDelimiter": null,
+    "Format": null,
+    "SerializationDllPath": null,
+    "SerializationClassName": null,
+    "SerializationDllPathInLocal": null
+  },
+  "CompresssionType": "None",
+  "ScriptType": "Input"
+}
